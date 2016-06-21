@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <checkout_onepage_index>
+        <reference name="checkout.onepage.billing">
+        	<action method="setTemplate"><template>checkoutnewsletter/default-checkout-onepage-billing.phtml</template></action>
+        </reference>
+    </checkout_onepage_index>
+</layout>

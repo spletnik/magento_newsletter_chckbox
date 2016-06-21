@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Spletnisistemi_Checkoutnewsletter>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Checkout />
+                <Mage_Newsletter />
+            </depends>
+        </Spletnisistemi_Checkoutnewsletter>
+    </modules>
+</config> 

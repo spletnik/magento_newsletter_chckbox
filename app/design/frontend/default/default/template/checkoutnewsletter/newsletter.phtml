@@ -1,0 +1,8 @@
+<?php
+$helper = Mage::helper('checkoutnewsletter');
+if (Mage::helper('checkoutnewsletter')->isEnabled()): ?>
+<li id="register-customer-newsletter"><input style="margin-right:5px; float:left;" type="checkbox" name="billing[is_subscribed]" value="1" title="<?php echo Mage::helper('customer')->__('Sign Up for Newsletter') ?>" id="billing:is_subscribed"<?php echo ($this->isChecked() || $helper->isChecked())?' checked="checked"':'' ?> /><label for="billing:is_subscribed"><?php echo Mage::helper('customer')->__('Sign Up for Newsletter') ?></label></li>
+<script type="text/javascript">
+
+</script>
+<?php endif ?>
