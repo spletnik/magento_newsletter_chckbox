@@ -1,0 +1,1 @@
+# magento_newsletter_chckbox
